@@ -1,0 +1,9 @@
+n=int(input())
+def first(n):
+    while(n>10):
+        n=n/10
+    return int(n)
+def last(n):
+    return(n%10)
+print(first(n))
+print(last(n))
