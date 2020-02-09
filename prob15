@@ -1,0 +1,9 @@
+Num= int(input())
+def rev(n):
+    Reverse = 0
+    while(n> 0):
+        rem=n%10
+        Reverse = (Reverse *10) +rem
+        n=n//10
+    return Reverse
+print(rev(Num))
