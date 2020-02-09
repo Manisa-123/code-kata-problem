@@ -1,0 +1,6 @@
+Num= int(input())
+def freq(n):
+   d=str(Num)
+   for i in d:
+       print("i =",d.count(i),"times")
+freq(Num)
