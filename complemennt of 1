@@ -1,0 +1,11 @@
+a=input()
+def ones(n):
+    c=[]
+    for i in n:
+        if i=="0":
+            c.append("1")
+        else:
+            c.append('0')
+    return c
+for i in (ones(a)):
+    print(i,end="")
